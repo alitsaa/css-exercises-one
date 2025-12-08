@@ -20,7 +20,11 @@ img {
   flex-direction: row;
   justify-content: center;
   align-self: center;
-  gap: 32px;
+  gap: 52px;
+  text-align: center;
+}
+.pepper {
+  margin-bottom: 20px;
 }
 .info {
   display: flex;
@@ -29,7 +33,6 @@ img {
   justify-content: center;
   align-self: center;
   flex-wrap: wrap;
-  text-align: center;
 }
 
 /* do not edit this footer */

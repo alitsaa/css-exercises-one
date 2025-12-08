@@ -11,9 +11,19 @@ body {
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.text {
+  margin-bottom: 16px;
 }
 
 .modal {
@@ -24,21 +34,8 @@ body {
   display: flex;
   gap: 16px;
   padding: 16px;
-  
 }
-.header {
-  font-weight: bold;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-.text {
-  margin-bottom: 16px;
-}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -50,8 +47,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
-  padding: 0;
   flex-shrink: 0;
 }
 
@@ -65,7 +60,7 @@ body {
   width: 24px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
 }

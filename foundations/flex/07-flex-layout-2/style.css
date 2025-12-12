@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px;
+  flex: 1;
 }
 
 .footer {
@@ -38,6 +39,11 @@ a {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 16px;
 }
 
 
@@ -54,6 +60,7 @@ ul {
   display: flex;
   flex-wrap: wrap; 
   padding: 48px;
+  gap: 32px;
 
 }
 .body {
@@ -62,7 +69,6 @@ ul {
 }
 .footer {
   display: flex;
-  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
